@@ -1,0 +1,76 @@
+{
+  "prepared_at": "2026-10-26",
+  "status": "preliminary simulation experiments",
+  "data_basis": "Transcribed internal research records; no new training or evaluation. Raw evaluation JSON for the later comparisons was not copied into this preview.",
+  "measurements": [
+    {
+      "comparison": "can/open-cup shape-summary masking",
+      "record": "WALL_B_2026-09-17.md",
+      "run": "B4",
+      "checkpoint_update": 1620,
+      "success_provided": {
+        "can": 32,
+        "open_cup": 32
+      },
+      "success_zeroed": {
+        "can": 32,
+        "open_cup": 32
+      },
+      "episodes_per_object": 32
+    },
+    {
+      "comparison": "lidded-cup handle-direction masking",
+      "record": "WALL_C_DESIGN_2026-09-19.md",
+      "run": "B7",
+      "checkpoint_update": 3660,
+      "success_provided": 22,
+      "success_zeroed": 10,
+      "episodes": 32
+    },
+    {
+      "comparison": "later two-object final checkpoint",
+      "record": "WALL_C_DESIGN_2026-09-19.md",
+      "run": "B11",
+      "checkpoint_update": 4875,
+      "open_cup": 30,
+      "lidded_cup": 25,
+      "lidded_cup_direction_zeroed": 9,
+      "episodes": 32
+    },
+    {
+      "comparison": "last reviewed adapted estimator policy",
+      "record": "WALL_C_DESIGN_2026-09-19.md",
+      "run": "B12 v2",
+      "checkpoint_update": 4920,
+      "estimator": 5,
+      "true_direction_same_checkpoint": 11,
+      "episodes": 32
+    }
+  ],
+  "media": [
+    {
+      "id": "can",
+      "file": "assets/can.mp4",
+      "sha256": "cf9fa90117d568dba33ebb8865ddc8cd5118d37cb40c5728825ee615df82c9d2",
+      "selection": "Existing illustrative rollout; not a random sample and not evidence of aggregate success rate."
+    },
+    {
+      "id": "open_cup",
+      "file": "assets/open_cup.mp4",
+      "sha256": "c4f89932779f8079300a88b15b0059e2077fd5b5e2a69e70b5fc21adadfdcff4",
+      "selection": "Existing illustrative rollout; not a random sample and not evidence of aggregate success rate."
+    },
+    {
+      "id": "handle_cup",
+      "file": "assets/handle_cup.mp4",
+      "sha256": "773a0f2c32adc90c334263584d56293bf4e1e0b9e0d965a6b1664455e7306dc2",
+      "selection": "Existing illustrative rollout; not a random sample and not evidence of aggregate success rate."
+    },
+    {
+      "id": "body_pinch",
+      "file": "assets/body_pinch.mp4",
+      "sha256": "686056a23f80238f2d8ac75fde1e7a2cd5a54a76d01f1a11ed4056660ee3a889",
+      "selection": "Existing illustrative rollout; not a random sample and not evidence of aggregate success rate."
+    }
+  ]
+}
